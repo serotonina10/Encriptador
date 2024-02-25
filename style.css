@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Rosa claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Encabezado */
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    color: #e91e63; /* Rosa brillante */
+  }
+  
+  /* Formulario */
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e91e63; /* Rosa brillante */
+    border-radius: 8px;
+    font-size: 24px; /* Tamaño de letra grande */
+  }
+  
+  button {
+    background-color: #e91e63; /* Rosa brillante */
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 24px; /* Tamaño de letra grande */
+  }
+  
+  button:hover {
+    background-color: #c2185b; /* Rosa más oscuro al pasar el ratón */
+  }
+  
+  /* Resultado */
+  #resultado {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8bbd0; /* Rosa claro */
+    border: 1px solid #e91e63; /* Rosa brillante */
+    border-radius: 8px;
+    color: #c2185b; /* Rosa más oscuro */
+    font-size: 24px; /* Tamaño de letra grande */
+  }
+  
+  /* Pie de página */
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #f8f9fa; /* Gris claro */
+    border-top: 1px solid #ccc;
+    font-size: 18px; /* Tamaño de letra grande en el pie de página */
+  }
